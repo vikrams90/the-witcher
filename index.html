@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Witcher Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+</head>
+<body>
+    <div class="side-nav-fixed">
+        <div  class="side-upper ">
+            <img class="home-logo" src="./images/w-logo.png" height="60px" alt="">
+            <i class="fa-solid fa-house desktop"></i>
+            <i class="fa-sharp fa-solid fa-laptop fa-md desktop" ></i>
+            <i class="fa-solid fa-envelope fa-md desktop" ></i>
+            <i class="fa-solid fa-trophy fa-md desktop" ></i>
+            <i class="fa-solid fa-wallet fa-md desktop" ></i>
+            <i class="fa-brands fa-windows fa-md desktop" ></i>
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="side-down">
+            <i class="fa-solid fa-arrow-up-right-from-square fa-md" ></i>
+            <i class="fa-solid fa-moon fa-md" ></i>
+            <i class="fa-solid fa-gear fa-md" ></i>
+        </div>
+    </div>
+    <div class="background">
+   
+        <div class="content">
+            <nav>
+                <div class="navbar">
+                    <a id="home" class="active" href="#">About The Game</a>
+                    <a id="character" href="#">Characters</a>
+                    <a href="#">Location</a>
+                    <a href="#">Reviews</a>
+                    <a href="#">Let's Play</a>
+                </div>
+            </nav>
+            <main>
+                <section class="Hero">
+                    <h1 class="head-hero">THE WITCHER</h1>
+                    <div class="hero-container">
+                        <div class="img-container-hero">
+                            
+                            <img class="img-hero" src="./images/witcher-png-2.png" alt="">
+                        </div>
+                        <div class="hero-text">
+                            <div class="hero-text-upper">
+                                In a war-torn world, with the Wild Hunt your back, you'll take on your most important contract - to track down the child of prophecy, a key and a weapon which can save or destroy all.
+                            </div>
+                            <div class="hero-text-middle">
+                                <h4 id="location" style="font-weight: 700;">
+                                    Location: Mill
+                                </h4>
+                                <p id="type">
+                                    Type: Abandoned village
+                                </p>
+                                <p id="country">
+                                    Country: Temeria 
+                                </p>
+                                <p id="region">
+                                    Region: White Garden
+                                </p>
+                                <p id="located">
+                                    Location: North of the White Garden
+                                </p>
+
+                                <button class="right"><i class="fa-solid fa-chevron-right"></i></button>
+                                <button class="left"><i class="fa-solid fa-chevron-left"></i></button>
+                            </div>
+
+                            <div class="map">
+                                <div class="map-b m-active">m1</div>
+                                <div class="map-b">m2</div>
+                                <div class="map-b">m3</div>
+                                <div class="map-b">m4</div>
+                                <div class="map-b">m5</div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="characters">
+                    <div class="char-container">
+                        <div class="char-cards">
+                            <div class="char-card c1"></div>
+                            <div class="char-card c2 active-card"></div>
+                            <div class="char-card c3"></div>
+                            <div class="char-card c4"></div>
+                            <div class="char-card c5"></div>
+                        </div>
+                        <div class="text-char-container">
+                            <div class="text-box">
+                                <div class="upper-text-char">
+                                    <div class="char-image">
+                                        <img src="./images/ciri.png" alt="">
+                                    </div>
+                                    <div class="char-details">
+                                        <h2>Ciri Fiona</h2>
+                                        <div class="detail">
+                                            <div class="title">
+                                                <p>force</p>
+                                                <p>20</p>
+                                            </div>
+                                            <div class="bar">
+                                                <div class="bar-length-1"></div>
+                                            </div>
+                                        </div>
+                                        <div class="detail">
+                                            <div class="title">
+                                                <p>intelligence</p>
+                                                <p>85</p>
+                                            </div>
+                                            <div class="bar">
+                                                <div class="bar-length-2"></div>
+                                            </div>
+                                        </div>
+                                        <div class="detail">
+                                            <div class="title">
+                                                <p>Agility</p>
+                                                <p>75</p>
+                                            </div>
+                                            <div class="bar">
+                                                <div class="bar-length-3"></div>
+                                            </div>
+                                        </div>
+                                        <div class="detail">
+                                            <div class="title">
+                                                <p>Endurance</p>
+                                                <p>95</p>
+                                            </div>
+                                            <div class="bar">
+                                                <div class="bar-length-4"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="lower-text-char">Ciri was born in Skellige in Belleteyn of the following year and initially, Calanthe ordered her advisor Mousesack to kill Geralt, wishing to break free from the Law of Surprise. Mousesack was ready to go, as nobody refused the queen, but when he was summoned a short time later Calanthe retracted the order without explanation.</div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+        </div>
+    </div>
+
+    <script src="./main.js"></script>
+    <script src="https://kit.fontawesome.com/dec49152fd.js" crossorigin="anonymous"></script>
+</body>
+</html>
